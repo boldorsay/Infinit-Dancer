@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@onemorestudio/playgroundjs": "^1.0.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "bezier-easing": "^2.1.0",
+    "dat.gui": "^0.7.9",
+    "firebase": "^9.6.10",
+    "p5": "^1.4.1",
+    "parcel": "*",
+    "parcel-reporter-static-files-copy": "^1.3.0",
+    "process": "^0.11.10",
+    "three": "^0.137.5"
+  },
+  "name": "NodeDemo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/core": "^7.17.5"
+  },
+  "scripts": {
+    "start": "rm -rf dist && parcel index.html --port 80 --open",
+    "startb": "rm -rf dist && parcel index.html --port 80 --open  --host 0.0.0.0",
+    "start-https": "rm -rf dist && parcel index.html --cert certificate.cert --key certificate.key --port 80 --open",
+    "build": "rm -rf dist && parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
